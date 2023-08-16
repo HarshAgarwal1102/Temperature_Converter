@@ -1,0 +1,46 @@
+body {
+    background: url(https://img.freepik.com/free-photo/summer-composition-with-sand-thermometer_23-2147632738.jpg?w=1060&t=st=1687091700~exp=1687092300~hmac=5076d541c3c12517a92a8d5e811b67b2fb254eabfb39b4f9864317c1ca25faee);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+    width: 450px;
+    background: transparent;
+    padding: 30px;
+    transform: translate(150%, 90%);
+    box-shadow: -5px 25px 55px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+.inputbox input {
+    height: 20px;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inputbox select {
+    height: 25px;
+    width: 100px;
+    background: transparent;
+}
+
+.submit input {
+    width: 50%;
+    border-radius: 25px;
+    height: 40px;
+    border: none;
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+}
+
+.submit input:hover {
+    background-color: #7f85f0;
+    transform: translateY(-5px);
+}
+
+p {
+    font-size: 30px;
+}

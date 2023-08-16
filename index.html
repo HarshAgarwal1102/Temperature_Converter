@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>/Document</title>
+    <link rel="stylesheet" href="design.css">
+  </head>
+  <body>
+    <div class="box">
+      <center><h1>Temprature Converter</h1></center>
+      <div class="inputbox">
+        <input
+          type="number"
+          id="degree"
+          placeholder="Degrees"
+        />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select id="temp">
+          <option></option>
+          <option value="cel">Celcius</option>
+          <option value="far">Farenheit</option>
+        </select>
+        <br />
+        <br />
+        <div class="submit">
+          <center>
+            <input
+              type="submit"
+              value="Submit"
+              onclick="k(document.getElementById('degree').value)"
+            />
+          </center>
+        </div>
+        <center>
+          <p id="display"></p>
+          <p id="display"></p>
+        </center>
+      </div>
+    </div>
+    <script src="script.js"></script>
+
+  </body>
+</html>
